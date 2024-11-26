@@ -1,0 +1,235 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+#theory{
+        margin: 0;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        overflow: hidden;
+}
+.container{
+        font-size: 10px;
+        width: 40em;
+        height: 40em;
+        position: relative;
+       
+}
+.sun{
+        position:absolute;
+        top: 30em;
+        left: 60em;
+        width: 10em;
+        height: 10em;
+        background:rgb(255, 174, 0);
+        border-radius: 50%;
+        box-shadow: 0 0 3em white;
+        position: fixed;
+}
+.bud{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.12em 0.12em 0 0;
+        border-radius: 100%;
+}
+.shukro{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.12em 0.12em 0 0;
+        border-radius: 100%;
+}
+.earth{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.12em 0.12em 0 0;
+        border-radius: 100%;
+}
+.mongol{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.2em 0.2em 0 0;
+        border-radius: 100%;
+}
+.brihospoti{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.2em 0.2em 0 0;
+        border-radius: 100%;
+}
+.soni{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.2em 0.2em 0 0;
+        border-radius: 100%;
+}
+.urenas{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.2em 0.2em 0 0;
+        border-radius: 100%;
+}
+.nepsun{
+        position: absolute;
+        border-style: solid;
+        border-color: aliceblue transparent transparent transparent ;
+        border-width: 0.2em 0.2em 0 0;
+        border-radius: 100%;
+}
+.bud{
+        animation:orbit 8.5s 
+        linear infinite ;
+        top: 24em;
+        left: 55em;
+        width: 20em;
+        height: 20em;
+}
+.shukro{
+        
+        animation:orbit 16.5s 
+        linear infinite ;
+        top: 17em;
+        left: 46em;
+        width: 38em;
+        height: 38em;
+}
+.earth{
+        
+        animation:orbit 12.5s 
+        linear infinite ;
+        top: 20em;
+        left: 50em;
+        width: 30em;
+        height: 30em;
+}
+.mongol{
+        
+        animation:orbit 20.5s 
+        linear infinite ;
+        top: 13em;
+        left:41em;
+        width: 47em;
+        height: 47em;
+}
+.brihospoti{
+        
+        animation:orbit 24.5s 
+        linear infinite ;
+        top: 9em;
+        left: 37em;
+        width: 55em;
+        height: 55em;
+}
+.soni{
+        
+        animation:orbit 28.5s 
+        linear infinite ;
+        top: 6em;
+        left: 34em;
+        width: 62em;
+        height: 62em;
+}
+.urenas{
+        
+        animation:orbit 32.5s 
+        linear infinite ;
+        top: 3em;
+        left: 31.5em;
+        width: 67em;
+        height: 67em;
+}
+.nepsun{
+        
+        animation:orbit 36.5s 
+        linear infinite ;
+        top: 1em;
+        left: 28em;
+        width: 74em;
+        height: 74em;
+}
+
+.earth::before,.bud::before,.shukro::before,.mongol::before,.brihospoti::before,.soni::before,.urenas::before,.nepsun::before{
+        content: "";
+        position:absolute;
+        border-radius: 50%;
+}
+.bud::before{
+        top: 1.8em;
+        right: 1.8em;
+        width: 3em;
+        height: 3em;
+        background: rgb(255, 51, 0);
+        box-shadow: 0 0 2em white;
+}
+.shukro::before{
+        top: 3.9em;
+        right: 3.9em;
+        width: 3em;
+        height: 3em;
+        background: rgb(0, 255, 13);
+        box-shadow: 0 0 2em white;
+}
+.earth::before{
+        top: 2.8em;
+        right: 2.8em;
+        width: 3em;
+        height: 3em;
+        background: aqua;
+        box-shadow: 0 0 2em white;
+}
+.mongol::before{
+        top: 5.5em;
+        right: 5.5em;
+        width: 3em;
+        height: 3em;
+        background: rgb(195, 0, 255);
+        box-shadow: 0 0 2em white;
+}
+.brihospoti::before{
+        top: 6.5em;
+        right: 6.5em;
+        width: 3em;
+        height: 3em;
+        background: rgb(255, 0, 0);
+        box-shadow: 0 0 2em white;
+}
+.soni::before{
+        top: 7.8em;
+        right: 7.8em;
+        width: 3em;
+        height: 3em;
+        background: rgb(255, 208, 0);
+        box-shadow: 0 0 2em white;
+}
+.urenas::before{
+        top: 8.2em;
+        right: 8.2em;
+        width: 3em;
+        height: 3em;
+        background: tomato;
+        box-shadow: 0 0 2em white;
+}
+.nepsun::before{
+        top: 9em;
+        right: 9em;
+        width: 3em;
+        height: 3em;
+        background: greenyellow;
+        box-shadow: 0 0 2em white;
+}
+
+@keyframes orbit{
+        to{
+                transform: rotate(
+                        360deg
+                );
+        }
+}
